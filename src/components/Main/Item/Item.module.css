@@ -1,0 +1,44 @@
+.main{
+    text-align: center;
+    font-size: 15px;
+    margin: 20px;
+    cursor: pointer;
+}
+.img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.main:hover .img{
+    transform: scale(1.02);
+    transition: 200ms;
+}
+span {
+    font-weight: 600;
+}
+.brand {
+    font-weight: 600;
+    font-size: 19px;
+    margin: 0 0 10px;
+}
+.model{
+    font-size: 18px
+}
+.price{
+    font-weight: 600;
+}
+.wrapper {
+    display: flex;
+    max-width: 250px;
+    flex-wrap: wrap;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.logo{
+    width: 90px;
+    height: 30px;
+    object-fit: contain;
+}
