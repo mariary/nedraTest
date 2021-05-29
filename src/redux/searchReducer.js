@@ -2,9 +2,10 @@ import {API_DATA, FILTER, SEARCH, SORT} from './types'
 
 const initialState = {
     list: [],
-    searchList: []
+    searchList: [],
 }
-const filterYear = ({name, value}, item) => {
+
+const filterYear = (value, item) => {
     let n = parseInt(item['year'])
     if (value === '1950s') {
         return n < 1960
@@ -17,11 +18,11 @@ const filterYear = ({name, value}, item) => {
     }
 }
 
-const sortByKey = (key,action) => {
-    if (action === 'up'){
+
+const sortByKey = (key, action) => {
+    if (action === 'up') {
         return (a, b) => a[key] > b[key] ? 1 : -1
-    }
-    else{
+    } else {
         return (a, b) => a[key] > b[key] ? -1 : 1
     }
 }
@@ -43,11 +44,18 @@ export const searchReducer = (state = initialState, action) => {
             }
         case FILTER:
             return {
-                ...state, searchList: state.list.filter((item) => {
-                    return action.payload.name === 'year' ?
-                        filterYear(action.payload, item)
-                        :
-                        action.payload.value.includes(item[`${action.payload.name}`])
+                ...state, searchList: state.list.filter(item => {
+                    if (!action.payload.year) return true
+                    return filterYear(action.payload.year, item)
+                }).filter(item => {
+                    if (!action.payload.brand) return true
+                    return action.payload.brand === item.brand
+                }).filter(item => {
+                    if (!action.payload.fuel) return true
+                    return action.payload.fuel === item.fuel
+                }).filter(item => {
+                    if (!action.payload.bodyType) return true
+                    return action.payload.bodyType === item.bodyType
                 }),
             }
         case SORT:

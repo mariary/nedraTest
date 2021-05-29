@@ -24,8 +24,7 @@ export function sortAction(payload) {
 export function apiAction() {
     return async dispatch => {
         try {
-            const response = await fetch('data.json')
-            const json = await response.json()
+            const json = await require('../data.json')
             dispatch({
                 type: API_DATA,
                 payload: json.objects

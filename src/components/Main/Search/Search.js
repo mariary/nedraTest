@@ -36,7 +36,7 @@ export const Search = () => {
                 <input type="text" value={search} onChange={updateSearch} className={s.input}/>
                 <button onSubmit={searchCars} className={s.btn}></button>
             </form>
-            <button onClick={apiData} className={s.btn_reload}></button>
+            <button onClick={() => window.location.reload()} className={s.btn_reload}></button>
         </div>
     )
 }

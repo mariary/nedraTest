@@ -12,7 +12,7 @@ function App() {
             <Search/>
             <div className='wrapper'>
                 <div className="content">
-                    {searchList.map(item => <Item info={item}/>)}
+                    {searchList.map(item => <Item info={item} key={item.id}/>)}
                 </div>
                 <Filter/>
             </div>
