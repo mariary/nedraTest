@@ -44,7 +44,7 @@ export const Filter = () => {
 
     return (
         <div className={s.main}>
-            <form onChange={filter}>
+            <form className={s.form} onChange={filter}>
                 {filterData.map(item => <ItemFilter sort={sort} title={item.title} name={item.name} arr={item.arr} style={item.style}/>)}
             </form>
 

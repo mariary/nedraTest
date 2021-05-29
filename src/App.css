@@ -1,7 +1,7 @@
 .App {
     max-width: 1400px;
     margin: 0 auto;
-
+    padding: 1.5em;
 }
 
 .content {
@@ -14,3 +14,9 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+ @media screen and (max-width: 900px) {
+     .wrapper {
+         display: flex;
+         flex-direction: column-reverse;
+     }
+ }
