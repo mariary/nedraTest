@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/nedraTest/static/css/main.85c7e40a.chunk.css",
-    "main.js": "/nedraTest/static/js/main.eeac3f33.chunk.js",
-    "main.js.map": "/nedraTest/static/js/main.eeac3f33.chunk.js.map",
+    "main.css": "/nedraTest/static/css/main.fa4e96e8.chunk.css",
+    "main.js": "/nedraTest/static/js/main.65e52bc3.chunk.js",
+    "main.js.map": "/nedraTest/static/js/main.65e52bc3.chunk.js.map",
     "runtime-main.js": "/nedraTest/static/js/runtime-main.ff83ecbb.js",
     "runtime-main.js.map": "/nedraTest/static/js/runtime-main.ff83ecbb.js.map",
-    "static/js/2.9b9490dd.chunk.js": "/nedraTest/static/js/2.9b9490dd.chunk.js",
-    "static/js/2.9b9490dd.chunk.js.map": "/nedraTest/static/js/2.9b9490dd.chunk.js.map",
+    "static/js/2.6878edc3.chunk.js": "/nedraTest/static/js/2.6878edc3.chunk.js",
+    "static/js/2.6878edc3.chunk.js.map": "/nedraTest/static/js/2.6878edc3.chunk.js.map",
     "index.html": "/nedraTest/index.html",
-    "static/css/main.85c7e40a.chunk.css.map": "/nedraTest/static/css/main.85c7e40a.chunk.css.map",
-    "static/js/2.9b9490dd.chunk.js.LICENSE.txt": "/nedraTest/static/js/2.9b9490dd.chunk.js.LICENSE.txt",
+    "static/css/main.fa4e96e8.chunk.css.map": "/nedraTest/static/css/main.fa4e96e8.chunk.css.map",
+    "static/js/2.6878edc3.chunk.js.LICENSE.txt": "/nedraTest/static/js/2.6878edc3.chunk.js.LICENSE.txt",
     "static/media/ItemFilter.module.css": "/nedraTest/static/media/arrow.bd27ae48.svg",
     "static/media/Search.module.css": "/nedraTest/static/media/search.12ebde87.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ff83ecbb.js",
-    "static/js/2.9b9490dd.chunk.js",
-    "static/css/main.85c7e40a.chunk.css",
-    "static/js/main.eeac3f33.chunk.js"
+    "static/js/2.6878edc3.chunk.js",
+    "static/css/main.fa4e96e8.chunk.css",
+    "static/js/main.65e52bc3.chunk.js"
   ]
 }
