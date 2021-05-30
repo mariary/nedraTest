@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nedraTest/static/css/main.fa4e96e8.chunk.css",
-    "main.js": "/nedraTest/static/js/main.154833b7.chunk.js",
-    "main.js.map": "/nedraTest/static/js/main.154833b7.chunk.js.map",
+    "main.js": "/nedraTest/static/js/main.97a7b420.chunk.js",
+    "main.js.map": "/nedraTest/static/js/main.97a7b420.chunk.js.map",
     "runtime-main.js": "/nedraTest/static/js/runtime-main.ff83ecbb.js",
     "runtime-main.js.map": "/nedraTest/static/js/runtime-main.ff83ecbb.js.map",
     "static/js/2.cbd4be88.chunk.js": "/nedraTest/static/js/2.cbd4be88.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ff83ecbb.js",
     "static/js/2.cbd4be88.chunk.js",
     "static/css/main.fa4e96e8.chunk.css",
-    "static/js/main.154833b7.chunk.js"
+    "static/js/main.97a7b420.chunk.js"
   ]
 }
